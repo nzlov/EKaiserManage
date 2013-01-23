@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plugins>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.talk.TalkPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.talk/talk.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.login.LoginPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.login/login.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.limit.LimitPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.limit/limit.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.database.DatabasePlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.database/database.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserShowPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.user/usershow.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserInfoPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.user/userinfo.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserModifyPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.user/usermodify.jar</Jar>
+	</Plugin>
+</Plugins>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plugins>
+	<DriverClass>com.mysql.jdbc.Driver</DriverClass>
+	<JdbcUrl>jdbc:mysql://127.0.0.1/ekaiser?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8</JdbcUrl>
+	<User>root</User>
+	<Password>159753</Password>
+	<InitialPoolSize>5</InitialPoolSize>
+	<MinPoolSize>5</MinPoolSize>
+	<MaxPoolSize>10</MaxPoolSize>
+	<MaxIdleTime>25000</MaxIdleTime>
+</Plugins>

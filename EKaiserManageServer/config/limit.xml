@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Limits>
+	<actor>
+		<limit>1</limit>
+		<plugin>Talk:sendMessage</plugin>
+		<plugin>User:add</plugin>
+		<plugin>User:show</plugin>
+		<plugin>User:info</plugin>
+		<plugin>User:modify</plugin>
+	</actor>
+	<actor>
+		<limit>2</limit>
+		<plugin>Talk:sendMessage</plugin>
+		<plugin>User:show</plugin>
+		<plugin>User:info</plugin>
+	</actor>
+</Limits>

@@ -1,0 +1,115 @@
+package ekaiser.nzlov.plugin.limit;
+
+import java.io.File;
+import java.io.UnsupportedEncodingException;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.List;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.mina.core.session.IoSession;
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
+
+import ekaiser.nzlov.methodmap.EMethodMapManage;
+import ekaiser.nzlov.methodmap.EMethodMessage;
+import ekaiser.nzlov.notepad.data.NotepadData;
+import ekaiser.nzlov.plugins.IEPlugin;
+
+public class LimitPlugin extends IEPlugin{
+	private static Logger logger = LogManager.getLogger("LimitPlugin");
+	private static final String CONFIG = "config/limit.xml";
+	
+	private HashMap<Integer, LimitData> limitMap = null;
+
+	@Override
+	public Object start() {
+		// TODO Auto-generated method stub
+    	logger.entry();
+    	limitMap = new HashMap<Integer,LimitData>();
+    	
+    	loadLimit(CONFIG);
+    	
+		EMethodMapManage.addMethodMap("Limit", this);
+    	logger.exit();
+		return true;
+	}
+
+	private void loadLimit(String str){
+		try {
+			SAXReader saxReader = new SAXReader();
+			Document xmlDocument = saxReader.read(new File(str));
+			Element root = xmlDocument.getRootElement();
+			
+			
+			List<Element> limits = root.elements("actor"); //解析Plugin标签
+			
+			int limit = 0;
+			
+			LimitData ld = null;
+						
+			for(Element l:limits){
+				limit = Integer.parseInt(l.elementText("limit"));
+				ld = new LimitData(limit);
+				List<Element> plugins = l.elements("plugin");
+				for(Element p:plugins){
+					ld.addLimits(p.getText());
+				}
+				limitMap.put(limit, ld);
+			}
+			
+			
+		} catch (DocumentException e) {
+			// TODO Auto-generated catch block
+			logger.catching(e);
+		}
+	}
+	
+	@Override
+	public Object start(HashMap<String, Object> pa) {
+		// TODO Auto-generated method stub
+    	logger.entry();
+    	logger.exit();
+		return null;
+	}
+
+	@Override
+	public Object stop() {
+		// TODO Auto-generated method stub
+    	logger.entry();
+		EMethodMapManage.removeMethodMap("Limit:isLimit");
+    	logger.exit();
+		return null;
+	}
+	
+	
+	public boolean isLimit(EMethodMessage msg) throws UnsupportedEncodingException, SQLException{
+    	logger.entry();
+		
+    	IoSession session = (IoSession)msg.getObject();
+    	NotepadData data = (NotepadData)msg.getParameter();
+    	int limit = (int)session.getAttribute("limit");
+    	try{
+    		LimitData ld = limitMap.get(limit);
+    		boolean b  = false;
+    		if(ld!=null){
+    			b = ld.isLimits(data.getName());
+    		}else{
+    		}
+	    	if(b){
+	        	logger.exit();
+	        	return b;
+	    	}
+    	}catch(Exception e){
+    		logger.catching(e);
+    		logger.exit();
+    		return false;
+    	}
+
+    	logger.exit();
+    	return false;
+	}
+}
