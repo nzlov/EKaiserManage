@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 0 没有权限 1所有权限 2只能操纵自己 -->
 <Limits>
 	<actor>
-		<limit>1</limit>
-		<plugin>Talk:sendMessage</plugin>
-		<plugin>User:add</plugin>
-		<plugin>User:show</plugin>
-		<plugin>User:info</plugin>
-		<plugin>User:modify</plugin>
-	</actor>
-	<actor>
-		<limit>2</limit>
-		<plugin>Talk:sendMessage</plugin>
-		<plugin>User:show</plugin>
-		<plugin>User:info</plugin>
+		<name>nzlov</name>
+		<!--
+		<method>
+			<name>Talk:sendMessage</name>
+			<limit>1</limit>
+		</method>
+		 -->
+		<method>
+			<name>User:add</name>
+			<limit>1</limit>
+		</method>
+		<!--
+		<method>
+			<name>User:show</name>
+			<limit>1</limit>
+		</method> 
+		 -->
+		<method>
+			<name>User:info</name>
+			<limit>1</limit>
+		</method>
+		<method>
+			<name>User:modify</name>
+			<limit>1</limit>
+		</method>
 	</actor>
 </Limits>

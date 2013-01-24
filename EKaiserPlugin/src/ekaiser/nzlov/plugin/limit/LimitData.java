@@ -1,30 +1,25 @@
 package ekaiser.nzlov.plugin.limit;
 
-import java.util.Vector;
+import java.util.HashMap;
 
 public class LimitData {
-	private int limit = 0;
-	private Vector<String> limits = null;
-	
-	LimitData(int i){
-		this.limit = i;
-		limits = new Vector<String>();
+	private String actor = "";
+	private HashMap<String, Integer> limitMap = null;
+	LimitData(String id){
+		this.actor = id;
+		limitMap = new HashMap<String,Integer>();
 	}
 	
-	void addLimits(String str){
-		if(str != null && !str.trim().equals("")){
-			limits.add(str);
+	void addLimits(String str,Integer limit){
+		if(str != null && !str.trim().equals("") && limit != null){
+			limitMap.put(str,limit);
 		}
 	}
 	
-	boolean isLimits(String str){
+	Integer isLimits(String str){
 		if(str != null && !str.trim().equals("")){
-			return (limits.indexOf(str)>-1);
+			return limitMap.get(str);
 		}
-		return false;
-	}
-	
-	int getLimit(){
-		return limit;
+		return 0;
 	}
 }

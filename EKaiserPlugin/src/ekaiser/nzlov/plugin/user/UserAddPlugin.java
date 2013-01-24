@@ -57,9 +57,19 @@ public class UserAddPlugin extends IEPlugin{
 	
 	public void add(EMethodMessage msg) throws UnsupportedEncodingException, SQLException{
     	logger.entry();
-		IoSession session = (IoSession)msg.getObject();
-		
+    	IoSession session = (IoSession)msg.getObject();
 		NotepadData data = (NotepadData)msg.getParameter();
+		int limit = (int)EMethodMapManage.sendMethodMessage("Limit:isLimit", session, data);
+		switch(limit){
+		case 1:break;
+		default:
+			data.clean();
+			data.setName("Error","123");
+			data.putString("3", "123");
+			session.write(data);
+			logger.exit();
+			return;
+		}
 		String login = data.getDataBlock(0, "123").getDataToString();
 		String pwd = data.getDataBlock(1, "123").getDataToString();
 		String name = data.getDataBlock(2, "123").getDataToString();
@@ -67,35 +77,39 @@ public class UserAddPlugin extends IEPlugin{
 		int sex = Integer.parseInt(data.getDataBlock(4, "123").getDataToString());
 		int age = Integer.parseInt(data.getDataBlock(5, "123").getDataToString());
 		String phone = data.getDataBlock(6, "123").getDataToString();
-		String moblie = data.getDataBlock(7, "123").getDataToString();
+		String mobile = data.getDataBlock(7, "123").getDataToString();
 		String email = data.getDataBlock(8, "123").getDataToString();
 		String addr  = data.getDataBlock(9, "123").getDataToString();
 		String photo = data.getDataBlock(10, "123").getDataToString();
 		
 		GuidCreator g = new GuidCreator();
-		String guid = g.createNewGuid(GuidCreator.BeforeMD5);
+		String guid = g.createNewGuid(GuidCreator.AfterMD5);
 		
 		
 		data.clean();
 		
 		//检测是否已经存在用户
 		String sql = "update user_table u set u.user_loginname='"+login+"' where u.user_loginname='"+login+"';"; 
-		
 		int i = (int)EMethodMapManage.sendMethodMessage("Database:update", this, sql);
-		if(i<0){
+		if(i<1){
 			//创建用户
-			sql = "update user_info_table ui,user_table u set ui.user_info_name='"+name+"' , ui.user_info_id='"+id+"' , ui.user_info_sex="+sex + " , ui.user_info_age=" + age +
-								" , ui.user_info_phone='" + phone+"' ui.user_info_moblie='" + moblie +"' , ui.email='" + email+"' , ui.addr='" + addr +"' ui.photo='" + photo+"' where ui.user_id=u.id and " +
-								"u.user_loginname='" + login+"';";
+			sql = "insert into user_table(id,user_loginname,user_password,user_state) " +
+											"values('"+guid+"','"+login+"','"+pwd+"',1);";
 			i = (int)EMethodMapManage.sendMethodMessage("Database:update", this, sql);
-			
-			//创建用户资料
-			sql = "update user_info_table ui,user_table u set ui.user_info_name='"+name+"' , ui.user_info_id='"+id+"' , ui.user_info_sex="+sex + " , ui.user_info_age=" + age +
-								" , ui.user_info_phone='" + phone+"' ui.user_info_moblie='" + moblie +"' , ui.email='" + email+"' , ui.addr='" + addr +"' ui.photo='" + photo+"' where ui.user_id=u.id and " +
-								"u.user_loginname='" + login+"';";
-			i = (int)EMethodMapManage.sendMethodMessage("Database:update", this, sql);
-			
-			
+			if(i<1){
+				data.putString("11","123");
+			}else{
+				//创建用户资料
+				sql = "insert into user_info_table(id,user_id,user_info_name,user_info_id,user_info_sex,user_info_age,user_info_phone,user_info_mobile,user_info_email,user_info_addr,user_info_photo)" +
+														"values('"+g.createNewGuid(GuidCreator.AfterMD5)+"','"+guid+"','"+name+"','"+id+"',"+sex+","+age+",'"+phone+"','"+mobile+"','"+email+"','"+addr+"','"+photo+"');";
+				i = (int)EMethodMapManage.sendMethodMessage("Database:update", this, sql);
+				if(i<1){
+					sql ="delete from user_table where id='"+guid+"';";
+					i = (int)EMethodMapManage.sendMethodMessage("Database:update", this, sql);
+					data.putString("11","123");
+				}
+				data.putString("1","123");
+			}
 		}else{
 			data.putString("10", "123");
 		}

@@ -49,13 +49,7 @@ public class ServerHandler extends IoHandlerAdapter{
 
 		String name = (String) session.getAttribute("name");
         if(name !=null){
-        	if((boolean)EMethodMapManage.sendMethodMessage("Limit:isLimit",session,emsg)){
         		EMethodMapManage.sendMethodMessage(content, session, emsg);
-        	}else{
-    			emsg = new NotepadData("Error");
-    			emsg.putString("3", "123");
-    			session.write(emsg);
-        	}
 		}else if(content.equals("Login:login")){
 			EMethodMapManage.sendMethodMessage(content, session, emsg);
 		}else{
@@ -63,7 +57,6 @@ public class ServerHandler extends IoHandlerAdapter{
 			emsg.putString("1", "123");
 			session.write(emsg);
 		}
-        
     	logger.exit();
     }
  

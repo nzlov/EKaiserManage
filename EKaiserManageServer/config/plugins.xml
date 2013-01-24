@@ -28,4 +28,8 @@
 		<Name>ekaiser.nzlov.plugin.user.UserModifyPlugin</Name>
 		<Jar>ekaiser.nzlov.plugin.user/usermodify.jar</Jar>
 	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserAddPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.user/useradd.jar</Jar>
+	</Plugin>
 </Plugins>

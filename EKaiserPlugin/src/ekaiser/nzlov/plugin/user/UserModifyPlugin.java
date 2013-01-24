@@ -57,9 +57,24 @@ public class UserModifyPlugin extends IEPlugin{
 	public void modify(EMethodMessage msg) throws UnsupportedEncodingException, SQLException{
     	logger.entry();
 		IoSession session = (IoSession)msg.getObject();
-		
 		NotepadData data = (NotepadData)msg.getParameter();
+		String sname = (String)session.getAttribute("name");
 		String login = data.getDataBlock(0, "123").getDataToString();
+		int limit = (int)EMethodMapManage.sendMethodMessage("Limit:isLimit", session, data);
+		switch(limit){
+		case 1:break;
+		case 2:
+			if(sname.equals(login)){
+				break;
+			}
+		default:
+			data.clean();
+			data.setName("Error","123");
+			data.putString("3", "123");
+			session.write(data);
+			logger.exit();
+			return;
+		}
 		String name = data.getDataBlock(1, "123").getDataToString();
 		String id = data.getDataBlock(2, "123").getDataToString();
 		int sex = Integer.parseInt(data.getDataBlock(3, "123").getDataToString());

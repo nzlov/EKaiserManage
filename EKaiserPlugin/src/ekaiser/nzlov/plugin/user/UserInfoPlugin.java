@@ -55,8 +55,24 @@ public class UserInfoPlugin extends IEPlugin{
     	logger.entry();
 		IoSession session = (IoSession)msg.getObject();
 		NotepadData data = (NotepadData)msg.getParameter();
-		String name = data.getDataBlock(0, "123").getDataToString();
-		String sql = "SELECT * FROM user_info_table ,user_table WHERE user_table.user_loginname ='"+name+"';";
+		String sname = (String)session.getAttribute("name");
+		String login = data.getDataBlock(0, "123").getDataToString();
+		int limit = (int)EMethodMapManage.sendMethodMessage("Limit:isLimit", session, data);
+		switch(limit){
+		case 1:break;
+		case 2:
+			if(sname.equals(login)){
+				break;
+			}
+		default:
+			data.clean();
+			data.setName("Error","123");
+			data.putString("3", "123");
+			session.write(data);
+			logger.exit();
+			return;
+		}
+		String sql = "SELECT * FROM user_info_table ,user_table WHERE user_table.user_loginname ='"+login+"';";
 		Object[] objs = (Object[])EMethodMapManage.sendMethodMessage("Database:query", this, sql);
 		ResultSet rs = (ResultSet)objs[0];
 		data.clean();

@@ -23,13 +23,13 @@ public class LimitPlugin extends IEPlugin{
 	private static Logger logger = LogManager.getLogger("LimitPlugin");
 	private static final String CONFIG = "config/limit.xml";
 	
-	private HashMap<Integer, LimitData> limitMap = null;
+	private HashMap<String, LimitData> limitMap = null;
 
 	@Override
 	public Object start() {
 		// TODO Auto-generated method stub
     	logger.entry();
-    	limitMap = new HashMap<Integer,LimitData>();
+    	limitMap = new HashMap<String,LimitData>();
     	
     	loadLimit(CONFIG);
     	
@@ -47,18 +47,18 @@ public class LimitPlugin extends IEPlugin{
 			
 			List<Element> limits = root.elements("actor"); //解析Plugin标签
 			
-			int limit = 0;
+			String actor = "";
 			
 			LimitData ld = null;
 						
 			for(Element l:limits){
-				limit = Integer.parseInt(l.elementText("limit"));
-				ld = new LimitData(limit);
-				List<Element> plugins = l.elements("plugin");
+				actor = l.elementText("name");
+				ld = new LimitData(actor);
+				List<Element> plugins = l.elements("method");
 				for(Element p:plugins){
-					ld.addLimits(p.getText());
+					ld.addLimits(p.elementText("name"),Integer.parseInt(p.elementText("limit")));
 				}
-				limitMap.put(limit, ld);
+				limitMap.put(actor, ld);
 			}
 			
 			
@@ -86,30 +86,27 @@ public class LimitPlugin extends IEPlugin{
 	}
 	
 	
-	public boolean isLimit(EMethodMessage msg) throws UnsupportedEncodingException, SQLException{
+	public int isLimit(EMethodMessage msg) throws UnsupportedEncodingException, SQLException{
     	logger.entry();
 		
     	IoSession session = (IoSession)msg.getObject();
     	NotepadData data = (NotepadData)msg.getParameter();
-    	int limit = (int)session.getAttribute("limit");
+    	String actor = (String)session.getAttribute("name");
     	try{
-    		LimitData ld = limitMap.get(limit);
-    		boolean b  = false;
+    		LimitData ld = limitMap.get(actor);
+    		Integer b  = null;
     		if(ld!=null){
     			b = ld.isLimits(data.getName());
+    	    	logger.exit();
+    			return b;
     		}else{
-    		}
-	    	if(b){
 	        	logger.exit();
 	        	return b;
 	    	}
     	}catch(Exception e){
     		logger.catching(e);
     		logger.exit();
-    		return false;
+    		return 0;
     	}
-
-    	logger.exit();
-    	return false;
 	}
 }

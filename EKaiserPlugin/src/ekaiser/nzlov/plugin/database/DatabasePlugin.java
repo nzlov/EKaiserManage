@@ -108,6 +108,7 @@ public class DatabasePlugin extends IEPlugin{
 	public int update(EMethodMessage msg) throws SQLException{
     	logger.entry();
 		String sql = (String)msg.getParameter();
+		logger.info(sql);
 		Connection conn = cpds.getConnection();
 		Statement stmt =  (Statement) conn.createStatement();
 		int i = stmt.executeUpdate(sql);
@@ -119,6 +120,7 @@ public class DatabasePlugin extends IEPlugin{
 	public Object[] query(EMethodMessage msg) throws SQLException{
     	logger.entry();
 		String sql = (String)msg.getParameter();
+		logger.info(sql);
 		Connection conn = cpds.getConnection();
 		Statement stmt =  (Statement) conn.createStatement();
 		ResultSet rs = stmt.executeQuery(sql);

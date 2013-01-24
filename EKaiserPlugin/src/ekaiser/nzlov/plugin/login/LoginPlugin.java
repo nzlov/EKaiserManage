@@ -66,12 +66,12 @@ public class LoginPlugin extends IEPlugin{
 		
 		if(islogin(user, pwd,session)){
 			session.setAttribute("name", user);
-			data = new NotepadData("login");
+			data.clean();
 			data.putString("login OK!", "123");
 			sessionMap.put(user, session.getId());
 			session.write(data);
 		}else{
-			data = new NotepadData("login");
+			data.clean();
 			data.putString("login NO!", "123");
 			session.write(data);
 		}
@@ -88,19 +88,19 @@ public class LoginPlugin extends IEPlugin{
 	 */
 	private boolean islogin(String user ,String pwd,IoSession session) throws SQLException{
 		String password = "";
+		String id = "";
 		int state = 0;
-		int limit = 0;
-		String sql = "select user_password,user_state,user_limit from user_table where user_loginname='" + user + "';";
+		String sql = "select * from user_table where user_loginname='" + user + "';";
 		Object[] objs = (Object[])EMethodMapManage.sendMethodMessage("Database:query", this, sql);
 		ResultSet rs = (ResultSet) objs[0];
 		while (rs.next()) {
+			id = rs.getString("id");
 			password = rs.getString("user_password");
 			state = rs.getInt("user_state");
-			limit = rs.getInt("user_limit");
 		}
 		EMethodMapManage.sendMethodMessage("Database:closeJDBC", this, objs);
 		if (pwd.equals(password) && state == 1) {
-			session.setAttribute("limit", limit);
+			session.setAttribute("guid", id);
 			return true;
 		} else
 			return false;
