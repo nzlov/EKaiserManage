@@ -7,6 +7,9 @@ import java.util.HashMap;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.mina.core.future.CloseFuture;
+import org.apache.mina.core.future.IoFuture;
+import org.apache.mina.core.future.IoFutureListener;
 import org.apache.mina.core.session.IoSession;
 
 import ekaiser.nzlov.methodmap.EMethodMapManage;
@@ -20,7 +23,8 @@ import ekaiser.nzlov.plugins.IEPlugin;
  */
 public class LoginPlugin extends IEPlugin{
 	private static Logger logger = LogManager.getLogger("LoginPlugin");
-	
+
+	private final static String v="1.1";
 	
 	private HashMap<String, Long> sessionMap = null;
 
@@ -28,6 +32,8 @@ public class LoginPlugin extends IEPlugin{
 	public Object start() {
 		// TODO Auto-generated method stub
     	logger.entry();
+    	
+    	setVersion(v);
     	
     	sessionMap = new HashMap<String,Long>();
     	
@@ -51,6 +57,7 @@ public class LoginPlugin extends IEPlugin{
 		EMethodMapManage.removeMethodMap("Login:login");
 		EMethodMapManage.removeMethodMap("Login:getUserSessionLong");
 		EMethodMapManage.removeMethodMap("Login:closeSession");
+		EMethodMapManage.removeMethodMap("Login:getOnlineUser");
     	logger.exit();
 		return null;
 	}
@@ -65,11 +72,22 @@ public class LoginPlugin extends IEPlugin{
 		String pwd = data.getDataBlock(1, "123").getDataToString();
 		
 		if(islogin(user, pwd,session)){
+			
+			if(sessionMap.containsKey(user)){
+				logout(user,session);
+			}
 			session.setAttribute("name", user);
 			data.clean();
 			data.putString("login OK!", "123");
 			sessionMap.put(user, session.getId());
 			session.write(data);
+			
+			data.clean();
+			data.setName("Login:enter", "123");
+			data.putString(user, "123");
+			
+			EMethodMapManage.sendMethodMessage("ServerMsg:sendMessage", session, data);
+			
 		}else{
 			data.clean();
 			data.putString("login NO!", "123");
@@ -87,6 +105,7 @@ public class LoginPlugin extends IEPlugin{
 	 * @throws SQLException
 	 */
 	private boolean islogin(String user ,String pwd,IoSession session) throws SQLException{
+    	logger.entry();
 		String password = "";
 		String id = "";
 		int state = 0;
@@ -101,19 +120,69 @@ public class LoginPlugin extends IEPlugin{
 		EMethodMapManage.sendMethodMessage("Database:closeJDBC", this, objs);
 		if (pwd.equals(password) && state == 1) {
 			session.setAttribute("guid", id);
+	    	logger.exit();
 			return true;
-		} else
+		} else{
+	    	logger.exit();
 			return false;
+		}
 	}
 	
+	private void logout(String name,IoSession session){
+    	logger.entry();
+    	Long reid = sessionMap.get(name);
+		NotepadData data = new NotepadData("Login:exit");
+		data.putString(name, "123");
+		EMethodMapManage.sendMethodMessage("ServerMsg:sendMessage", session, data);
+    	IoSession resession = session.getService().getManagedSessions().get(reid);
+        CloseFuture closeFuture = resession.close(true);
+        closeFuture.addListener(new IoFutureListener<IoFuture>(){
+            public void operationComplete(IoFuture future) {
+                if (future instanceof CloseFuture) {
+                    ((CloseFuture) future).setClosed();
+                    logger.info("sessionClosed CloseFuture setClosed-->{},", future.getSession().getId());
+                }
+            }
+        });
+    	logger.exit();
+	}
 	
 	public Long getUserSessionLong(EMethodMessage msg){
+    	logger.entry();
 		String user = msg.getParameter().toString();
+    	logger.exit();
 		return sessionMap.get(user);
 	}
 
 	public void closeSession(EMethodMessage msg){
+    	logger.entry();
 		String user = msg.getParameter().toString();
 		sessionMap.remove(user);
+		
+		NotepadData data = new NotepadData("Login:exit");
+		data.putString(user, "123");
+		
+		EMethodMapManage.sendMethodMessage("ServerMsg:sendMessage", msg.getObject(), data);
+    	logger.exit();
 	}
+	
+	
+	public void getOnlineUser(EMethodMessage msg){
+    	logger.entry();
+		IoSession session = (IoSession)msg.getObject();
+		NotepadData data = (NotepadData)msg.getParameter();
+		
+		data.clean();
+		
+		String[] users = (String[])sessionMap.keySet().toArray();
+		
+		for(String u:users){
+			data.putString(u, "123");
+		}
+		
+		session.write(data);
+		
+    	logger.exit();
+	}
+	
 }

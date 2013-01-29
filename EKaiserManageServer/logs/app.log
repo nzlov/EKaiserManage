@@ -6215,3 +6215,1908 @@ MethodMapList:
 2013.01.24 at 11:26:06 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 73 sessionClosed - 关闭当前session：2#/172.19.42.42:54552
 2013.01.24 at 11:26:06 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 83 operationComplete - sessionClosed CloseFuture setClosed-->2,
 2013.01.24 at 11:26:06 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 87 sessionClosed -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.24 at 14:40:16 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 30 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 35 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 29 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 32 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.24 at 14:40:16 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.24 at 14:40:16 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.24 at 14:40:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.24 at 14:40:16 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.24 at 14:40:26 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionCreated -  entry
+2013.01.24 at 14:40:26 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 93 sessionCreated - 创建一个新连接：/172.19.42.42:60126
+2013.01.24 at 14:40:26 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 94 sessionCreated -  exit
+2013.01.24 at 14:40:26 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionOpened -  entry
+2013.01.24 at 14:40:26 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 107 sessionOpened - 打开一个session：1#0
+2013.01.24 at 14:40:26 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 108 sessionOpened -  exit
+2013.01.24 at 14:40:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:40:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:40:39	Login:login
+2013.01.24 at 14:40:39 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 60 login -  entry
+2013.01.24 at 14:40:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 14:40:39 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 79 login -  exit
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:40:40 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@bb51f0
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:40:47 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:40:47	User:info
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 55 info -  entry
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 14:40:47 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - SELECT * FROM user_info_table ,user_table WHERE user_table.user_loginname ='test';
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 95 info -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:40:47 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1e98e7e
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:41:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:41:10	User:show
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 58 show -  entry
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 14:41:10 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - SELECT user_loginname FROM user_table;
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 74 show -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:41:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@ce7a49
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:41:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionIdle -  entry
+2013.01.24 at 14:41:40 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 100 sessionIdle - 当前连接/172.19.42.42:60126处于空闲状态：both idle
+2013.01.24 at 14:41:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 101 sessionIdle -  exit
+2013.01.24 at 14:42:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionIdle -  entry
+2013.01.24 at 14:42:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 100 sessionIdle - 当前连接/172.19.42.42:60126处于空闲状态：both idle
+2013.01.24 at 14:42:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 101 sessionIdle -  exit
+2013.01.24 at 14:42:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionIdle -  entry
+2013.01.24 at 14:42:40 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 100 sessionIdle - 当前连接/172.19.42.42:60126处于空闲状态：both idle
+2013.01.24 at 14:42:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 101 sessionIdle -  exit
+2013.01.24 at 14:42:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.24 at 14:42:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.24 at 14:42:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.24 at 14:42:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 sessionClosed -  entry
+2013.01.24 at 14:42:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 73 sessionClosed - 关闭当前session：1#/172.19.42.42:60126
+2013.01.24 at 14:42:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 83 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.24 at 14:42:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 87 sessionClosed -  exit
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.24 at 14:46:07 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 30 start -  entry
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 35 start -  exit
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:07 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 29 start -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 32 start -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 153 loadPlugin -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.24 at 14:46:08 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.24 at 14:46:08 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.24 at 14:46:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.24 at 14:46:08 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.24 at 14:46:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionCreated -  entry
+2013.01.24 at 14:46:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 93 sessionCreated - 创建一个新连接：/172.19.42.42:60497
+2013.01.24 at 14:46:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 94 sessionCreated -  exit
+2013.01.24 at 14:46:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionOpened -  entry
+2013.01.24 at 14:46:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 107 sessionOpened - 打开一个session：1#0
+2013.01.24 at 14:46:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 108 sessionOpened -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:46:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:46:23	Login:login
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 60 login -  entry
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 14:46:23 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 79 login -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:46:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@89178b
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:46:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:46:31	User:info
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 55 info -  entry
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 14:46:31 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - SELECT * FROM user_info_table ,user_table WHERE user_info_table.user_id = user_table.id and user_table.user_loginname ='test';
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 95 info -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:46:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@faa47b
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:46:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionCreated -  entry
+2013.01.24 at 14:46:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 93 sessionCreated - 创建一个新连接：/172.19.42.42:60528
+2013.01.24 at 14:46:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 94 sessionCreated -  exit
+2013.01.24 at 14:46:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionOpened -  entry
+2013.01.24 at 14:46:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 107 sessionOpened - 打开一个session：2#0
+2013.01.24 at 14:46:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 108 sessionOpened -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:46:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:46:50	Login:login
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 60 login -  entry
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 14:46:50 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='test';
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 79 login -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:46:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@3d2eb1
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:46:59 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:46:59	User:info
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 55 info -  entry
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 72 info -  exit
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:46:59 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1fc35a6
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:47:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionIdle -  entry
+2013.01.24 at 14:47:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 100 sessionIdle - 当前连接/172.19.42.42:60497处于空闲状态：both idle
+2013.01.24 at 14:47:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 101 sessionIdle -  exit
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:47:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:47:23	Talk:sendMessage
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 51 sendMessage -  entry
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 67 sendMessage -  exit
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:47:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@15dcd1d
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:47:44 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:47:44	Talk:sendMessage
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 51 sendMessage -  entry
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 67 sendMessage -  exit
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:47:44 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1393f50
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 14:48:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 41 messageReceived - 服务器处理: 2013-01-24 02:48:04	User:add
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 59 add -  entry
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.24 at 14:48:04 CST ERROR ekaiser.nzlov.plugin.limit.LimitPlugin 107 isLimit - catching java.lang.NullPointerException
+	at ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit(LimitPlugin.java:101) [limit.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_11]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_11]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_11]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_11]
+	at ekaiser.nzlov.methodmap.EMethodMap.invoke(EMethodMap.java:33) [bin/:?]
+	at ekaiser.nzlov.methodmap.EMethodMapManage.sendMethodMessages(EMethodMapManage.java:135) [bin/:?]
+	at ekaiser.nzlov.methodmap.EMethodMapManage.sendMethodMessage(EMethodMapManage.java:45) [bin/:?]
+	at ekaiser.nzlov.methodmap.EMethodMapManage.sendMethodMessage(EMethodMapManage.java:37) [bin/:?]
+	at ekaiser.nzlov.plugin.user.UserAddPlugin.add(UserAddPlugin.java:62) [useradd.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_11]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_11]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_11]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_11]
+	at ekaiser.nzlov.methodmap.EMethodMap.invoke(EMethodMap.java:33) [bin/:?]
+	at ekaiser.nzlov.methodmap.EMethodMapManage.sendMethodMessages(EMethodMapManage.java:135) [bin/:?]
+	at ekaiser.nzlov.methodmap.EMethodMapManage.sendMethodMessage(EMethodMapManage.java:45) [bin/:?]
+	at ekaiser.nzlov.methodmap.EMethodMapManage.sendMethodMessage(EMethodMapManage.java:37) [bin/:?]
+	at ekaiser.nzlov.ekaisermanage.net.ServerHandler.messageReceived(ServerHandler.java:52) [bin/:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:690) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:417) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:765) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter$ProtocolDecoderOutputImpl.flush(ProtocolCodecFilter.java:407) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:236) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:417) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:765) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.messageReceived(IoFilterAdapter.java:109) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:417) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireMessageReceived(DefaultIoFilterChain.java:410) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:710) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:664) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:653) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1124) [mina-core-2.0.7.jar:?]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.7.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.7.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.7.0_11]
+	at java.lang.Thread.run(Unknown Source) [?:1.7.0_11]
+
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 108 isLimit -  exit
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 70 add -  exit
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 60 messageReceived -  exit
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageSent -  entry
+2013.01.24 at 14:48:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 66 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@131802b
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 67 messageSent -  exit
+2013.01.24 at 14:48:14 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionIdle -  entry
+2013.01.24 at 14:48:14 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 100 sessionIdle - 当前连接/172.19.42.42:60497处于空闲状态：both idle
+2013.01.24 at 14:48:14 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 101 sessionIdle -  exit
+2013.01.24 at 14:48:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.24 at 14:48:16 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.24 at 14:48:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.24 at 14:48:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 sessionClosed -  entry
+2013.01.24 at 14:48:16 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 73 sessionClosed - 关闭当前session：2#/172.19.42.42:60528
+2013.01.24 at 14:48:16 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 83 operationComplete - sessionClosed CloseFuture setClosed-->2,
+2013.01.24 at 14:48:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 87 sessionClosed -  exit
+2013.01.24 at 14:48:18 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.24 at 14:48:18 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.24 at 14:48:18 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.24 at 14:48:18 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 sessionClosed -  entry
+2013.01.24 at 14:48:18 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 73 sessionClosed - 关闭当前session：1#/172.19.42.42:60497
+2013.01.24 at 14:48:18 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 83 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.24 at 14:48:18 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 87 sessionClosed -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 33 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 38 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 29 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 32 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.24 at 15:28:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.24 at 15:28:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.24 at 15:28:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.24 at 15:28:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:61884
+2013.01.24 at 15:28:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.24 at 15:28:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.24 at 15:28:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.24 at 15:28:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 15:29:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-24 03:29:00	Login:login
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 63 login -  entry
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 104 islogin -  entry
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 15:29:00 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 119 islogin -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 93 login -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:29:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@7e97d8
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:29:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@7e97d8
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:29:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.24 at 15:29:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:61910
+2013.01.24 at 15:29:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.24 at 15:29:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.24 at 15:29:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：2#0
+2013.01.24 at 15:29:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-24 03:29:17	Login:login
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 63 login -  entry
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 104 islogin -  entry
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='test';
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 119 islogin -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 93 login -  exit
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@6a2d75
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@6a2d75
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@6a2d75
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:29:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.24 at 15:29:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:61926
+2013.01.24 at 15:29:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.24 at 15:29:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.24 at 15:29:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：3#0
+2013.01.24 at 15:29:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.24 at 15:29:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.24 at 15:29:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.24 at 15:29:47 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:61884处于空闲状态：both idle
+2013.01.24 at 15:29:47 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:61910处于空闲状态：both idle
+2013.01.24 at 15:29:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.24 at 15:29:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.24 at 15:29:53 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.24 at 15:29:53 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:61926处于空闲状态：both idle
+2013.01.24 at 15:29:53 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 15:30:11 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-24 03:30:11	Login
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:30:11 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@14e7d3d
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:30:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.24 at 15:30:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.24 at 15:30:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:61910处于空闲状态：both idle
+2013.01.24 at 15:30:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:61884处于空闲状态：both idle
+2013.01.24 at 15:30:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.24 at 15:30:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-24 03:30:24	Login:login
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 63 login -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 104 islogin -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='test';
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 119 islogin -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 128 logout -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.plugin.login.LoginPlugin$1 136 operationComplete - sessionClosed CloseFuture setClosed-->2,
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：2#/172.19.42.42:61910
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 140 logout -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 151 closeSession -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@aac95
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 159 closeSession -  exit
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@5368af
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 93 login -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->2,
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@5368af
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@aac95
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@5368af
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.24 at 15:30:54 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.24 at 15:30:54 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:61884处于空闲状态：both idle
+2013.01.24 at 15:30:54 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.24 at 15:30:54 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.24 at 15:30:54 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:61926处于空闲状态：both idle
+2013.01.24 at 15:30:54 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.28 at 16:02:50 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:02:50 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:02:50 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:51 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:51 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:51 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:51 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:51 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:51 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 35 start -  entry
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 41 start -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:02:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:02:52 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:03:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:03:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:54350
+2013.01.28 at 16:03:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:03:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:03:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:03:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:03:12 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:03:12 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:03:12	Login:login
+2013.01.28 at 16:03:12 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:03:12 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:03:12 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:03:12 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:03:14 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:03:14 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:03:14 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:03:15 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1b184f6
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:03:15 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1b184f6
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:03:38 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:03:38	User:sign
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 64 sign -  entry
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:03:38 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into user_table(id,user_id,state,date) values('ac13bfc86bc501ae913c2975adfc28d1','e4ae51299249968405b10159e6e57b49',0,1359360218);
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:04:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.28 at 16:04:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:54350处于空闲状态：both idle
+2013.01.28 at 16:04:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.28 at 16:04:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.28 at 16:04:38 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:54350处于空闲状态：both idle
+2013.01.28 at 16:04:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:04:44 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:04:44 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:54350
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:04:44 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:04:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:11 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:11 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:12 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:12 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:12 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:05:12 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 35 start -  entry
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 41 start -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:05:12 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:05:12 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:05:12 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:05:12 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:05:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:05:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:54820
+2013.01.28 at 16:05:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:05:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:05:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:05:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:05:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:05:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:05:31	Login:login
+2013.01.28 at 16:05:31 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:05:31 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:05:31 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:05:31 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:05:32 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@18ca1e3
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:05:32 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@18ca1e3
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:05:41 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:05:41 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:05:41	USer:sign
+2013.01.28 at 16:05:41 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:05:58 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:05:58	User:sign
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 64 sign -  entry
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:05:58 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('8e3210bb38258737b943aafcf9d8020b','e4ae51299249968405b10159e6e57b49',0,1359360358);
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:06:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:06:01	User:sign
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 64 sign -  entry
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:06:01 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('f074d9ffdf6a8cf19c877b35f745286a','e4ae51299249968405b10159e6e57b49',0,1359360361);
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:06:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.28 at 16:06:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:54820处于空闲状态：both idle
+2013.01.28 at 16:06:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:06:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:06:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:54820
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:06:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:06:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:48 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:48 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:08:48 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 35 start -  entry
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 41 start -  exit
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:08:48 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:08:48 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:08:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:08:48 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:08:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:08:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:55528
+2013.01.28 at 16:08:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:08:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:08:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:08:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:08:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:08:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:08:57	Login:login
+2013.01.28 at 16:08:57 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:08:57 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:08:57 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:08:57 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:08:58 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@7a9f36
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:08:58 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@7a9f36
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:09:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:09:08	User:sign
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 64 sign -  entry
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:09:08 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('76c74f989d5d912115be3c89b367039d','e4ae51299249968405b10159e6e57b49',0,1359360548);
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:09:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.28 at 16:09:38 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:55528处于空闲状态：both idle
+2013.01.28 at 16:09:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.28 at 16:10:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 104 sessionIdle -  entry
+2013.01.28 at 16:10:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 105 sessionIdle - 当前连接/172.19.42.42:55528处于空闲状态：both idle
+2013.01.28 at 16:10:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 106 sessionIdle -  exit
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:10:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:10:17	User:sign
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 64 sign -  entry
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:10:17 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('cd01a001abe0d34911353c36d269cb35','e4ae51299249968405b10159e6e57b49',0,1359360617);
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:10:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:10:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:55528
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:10:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:10:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:10:28 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 35 start -  entry
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 41 start -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:10:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:10:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:10:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:10:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:55801
+2013.01.28 at 16:10:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:10:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:10:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:10:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:10:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:10:39	Login:login
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:10:39 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:10:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1d1a507
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:10:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1d1a507
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:10:48 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:10:48	User:sign
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 64 sign -  entry
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:10:48 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('911511f5dcd9173c317b28f55268ddd3','e4ae51299249968405b10159e6e57b49',1,1359360648);
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:11:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:11:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:55801
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:11:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:11:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:12:51 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:12:51 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:12:51 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 37 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 43 start -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:12:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:12:52 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:12:55 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:12:55 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:56187
+2013.01.28 at 16:12:55 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:12:55 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:12:55 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:12:55 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:13:03 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:13:03	Login:login
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:13:03 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:13:03 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1d85571
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:13:03 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1d85571
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:13:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:13:10	User:sign
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 66 sign -  entry
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:13:10 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('482654f978b276f45a88f572b7923407','e4ae51299249968405b10159e6e57b49',1,'1970/01/17');
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 116 update -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 102 sign -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:13:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@f9d3e5
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:13:33 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:13:33 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:56187
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:13:33 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:13:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:28 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:28 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:15:29 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 37 start -  entry
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 43 start -  exit
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:15:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:15:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:15:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:15:29 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:15:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:15:33 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:56757
+2013.01.28 at 16:15:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:15:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:15:33 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:15:33 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:15:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:15:38 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:15:38	Login:login
+2013.01.28 at 16:15:38 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:15:38 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:15:38 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:15:38 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:15:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@e091d4
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:15:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@e091d4
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:15:48 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:15:48	User:sign
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 66 sign -  entry
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:15:48 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('3001b0311bed170615ecf986856c638c','e4ae51299249968405b10159e6e57b49',1,'1970/01/17');
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 116 update -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 102 sign -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:15:48 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1c40f32
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:15:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:15:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:56757
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:15:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:15:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:19:58 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:58 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:58 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:58 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:58 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:58 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 37 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 43 start -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:19:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:19:59 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:20:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:20:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:57722
+2013.01.28 at 16:20:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:20:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:20:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:20:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:20:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:20:20	Login:login
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:20:20 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:20:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@17ee7d5
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:20:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@17ee7d5
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:20:29 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:20:29	User:sign
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 66 sign -  entry
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:20:29 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('b95c6e83d8e81c706f3cd1fc74df497b','e4ae51299249968405b10159e6e57b49',2,'1970/01/17');
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 116 update -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 102 sign -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:20:29 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@1ae7fa2
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:20:42 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:20:42 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:57722
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:20:42 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:20:42 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:21:03 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:03 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:03 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:03 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:03 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:03 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 37 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 43 start -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:21:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:21:04 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 37 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 43 start -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:21:19 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:21:19 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:21:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:21:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:57945
+2013.01.28 at 16:21:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:21:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:21:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:21:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:21:35 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:21:35	Login:login
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:21:35 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:21:35 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@e091d4
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:21:35 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@e091d4
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:21:45 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:21:45	User:sign
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 66 sign -  entry
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:21:45 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('8f6d1c31b80cb20fafac6c8d14e52152','e4ae51299249968405b10159e6e57b49',1,1970-01-17);
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:21:59 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:21:59 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:57945
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:21:59 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:21:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 17 <init> -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 19 <init> - 创建方法映射管理器
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 74 init -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.talk.TalkPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 25 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.talk.TalkPlugin 28 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.login.LoginPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 34 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 41 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.limit.LimitPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 31 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 37 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 26 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 29 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.database.DatabasePlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 34 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 79 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserShowPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 32 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserShowPlugin 35 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserInfoPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 30 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserInfoPlugin 34 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserModifyPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 32 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserModifyPlugin 35 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserAddPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 33 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserAddPlugin 36 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserEnablePlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 29 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserEnablePlugin 35 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:47 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserPwdPlugin   Version:1.0
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 27 start -  entry
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugin.user.UserPwdPlugin 33 start -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:47 CST TRACE ekaiser.nzlov.plugins.EPluginManage 146 loadPlugin -  entry
+2013.01.28 at 16:23:48 CST INFO  ekaiser.nzlov.plugins.EPluginManage 152 loadPlugin - Load Plugin :ekaiser.nzlov.plugin.user.UserSignPlugin   Version:1.0
+2013.01.28 at 16:23:48 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 37 start -  entry
+2013.01.28 at 16:23:48 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 43 start -  exit
+2013.01.28 at 16:23:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 154 loadPlugin -  exit
+2013.01.28 at 16:23:48 CST TRACE ekaiser.nzlov.plugins.EPluginManage 101 init -  exit
+2013.01.28 at 16:23:48 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 21 <init> - 加载初始插件
+2013.01.28 at 16:23:48 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 24 <init> - 创建网络IO
+2013.01.28 at 16:23:48 CST TRACE ekaiser.nzlov.ekaisermanage.main.ServerMain 26 <init> -  exit
+2013.01.28 at 16:23:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 25 start -  entry
+2013.01.28 at 16:23:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.Server 49 start -  exit
+2013.01.28 at 16:23:48 CST INFO  ekaiser.nzlov.ekaisermanage.main.ServerMain 32 start - 
+MethodMapList:
+	Talk:sendMessage	=>	ekaiser.nzlov.plugin.talk.TalkPlugin.sendMessage
+	Login:getUserSessionLong	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getUserSessionLong
+	User:sign	=>	ekaiser.nzlov.plugin.user.UserSignPlugin.sign
+	Database:query	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.query
+	User:info	=>	ekaiser.nzlov.plugin.user.UserInfoPlugin.info
+	User:add	=>	ekaiser.nzlov.plugin.user.UserAddPlugin.add
+	ServerMsg:sendMessage	=>	ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin.sendMessage
+	Database:update	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.update
+	User:modify	=>	ekaiser.nzlov.plugin.user.UserModifyPlugin.modify
+	User:show	=>	ekaiser.nzlov.plugin.user.UserShowPlugin.show
+	User:pwd	=>	ekaiser.nzlov.plugin.user.UserPwdPlugin.pwd
+	Limit:isLimit	=>	ekaiser.nzlov.plugin.limit.LimitPlugin.isLimit
+	Login:getOnlineUser	=>	ekaiser.nzlov.plugin.login.LoginPlugin.getOnlineUser
+	Database:closeJDBC	=>	ekaiser.nzlov.plugin.database.DatabasePlugin.closeJDBC
+	Login:login	=>	ekaiser.nzlov.plugin.login.LoginPlugin.login
+	User:enable	=>	ekaiser.nzlov.plugin.user.UserEnablePlugin.enable
+	Login:closeSession	=>	ekaiser.nzlov.plugin.login.LoginPlugin.closeSession
+2013.01.28 at 16:23:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 97 sessionCreated -  entry
+2013.01.28 at 16:23:52 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 98 sessionCreated - 创建一个新连接：/172.19.42.42:58394
+2013.01.28 at 16:23:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 99 sessionCreated -  exit
+2013.01.28 at 16:23:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 111 sessionOpened -  entry
+2013.01.28 at 16:23:52 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 112 sessionOpened - 打开一个session：1#0
+2013.01.28 at 16:23:52 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 113 sessionOpened -  exit
+2013.01.28 at 16:24:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:24:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:24:00	Login:login
+2013.01.28 at 16:24:00 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 67 login -  entry
+2013.01.28 at 16:24:00 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 108 islogin -  entry
+2013.01.28 at 16:24:00 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 121 query -  entry
+2013.01.28 at 16:24:00 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 123 query - select * from user_table where user_loginname='nzlov';
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 127 query -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 132 closeJDBC -  entry
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 138 closeJDBC -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 123 islogin -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 97 login -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:24:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@a99367
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:24:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@a99367
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 32 messageReceived -  entry
+2013.01.28 at 16:24:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 46 messageReceived - 服务器处理: 2013-01-28 04:24:08	User:sign
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 66 sign -  entry
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 90 isLimit -  entry
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.limit.LimitPlugin 100 isLimit -  exit
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 109 update -  entry
+2013.01.28 at 16:24:08 CST INFO  ekaiser.nzlov.plugin.database.DatabasePlugin 111 update - insert into sign_table(id,user_id,state,date) values('6cc01fa801e2d66ac7947e262eaab304','e4ae51299249968405b10159e6e57b49',1,'2013-01-28 16:24:08');
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 148 closeJDBC -  entry
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 173 closeJDBC -  exit
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.database.DatabasePlugin 116 update -  exit
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.plugin.user.UserSignPlugin 102 sign -  exit
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 65 messageReceived -  exit
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 70 messageSent -  entry
+2013.01.28 at 16:24:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 71 messageSent - 服务器发送消息： ekaiser.nzlov.notepad.data.NotepadData@17405e4
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 72 messageSent -  exit
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 25 exceptionCaught -  entry
+2013.01.28 at 16:24:16 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 26 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 27 exceptionCaught -  exit
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 77 sessionClosed -  entry
+2013.01.28 at 16:24:16 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler 78 sessionClosed - 关闭当前session：1#/172.19.42.42:58394
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 158 closeSession -  entry
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 52 sendMessage -  entry
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin 62 sendMessage -  exit
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.plugin.login.LoginPlugin 166 closeSession -  exit
+2013.01.28 at 16:24:16 CST INFO  ekaiser.nzlov.ekaisermanage.net.ServerHandler$1 88 operationComplete - sessionClosed CloseFuture setClosed-->1,
+2013.01.28 at 16:24:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ServerHandler 92 sessionClosed -  exit

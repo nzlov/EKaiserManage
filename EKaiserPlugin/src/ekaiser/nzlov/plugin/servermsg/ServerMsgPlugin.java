@@ -1,6 +1,7 @@
-package ekaiser.nzlov.plugin.talk;
+package ekaiser.nzlov.plugin.servermsg;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Collection;
 import java.util.HashMap;
 
 import org.apache.logging.log4j.LogManager;
@@ -12,22 +13,18 @@ import ekaiser.nzlov.methodmap.EMethodMessage;
 import ekaiser.nzlov.notepad.data.NotepadData;
 import ekaiser.nzlov.plugins.IEPlugin;
 /**
- * 即时聊天 离线信息
+ * 服务器消息
  * @author nzlov
  *
  */
-public class TalkPlugin extends IEPlugin{
-	private static Logger logger = LogManager.getLogger("TalkPlugin");
+public class ServerMsgPlugin extends IEPlugin{
+	private static Logger logger = LogManager.getLogger("ServerMsgPlugin");
 
-	private final static String v="1.0";
 	@Override
 	public Object start() {
 		// TODO Auto-generated method stub
     	logger.entry();
-    	
-    	setVersion(v);
-    	
-		EMethodMapManage.addMethodMap("Talk", this);
+		EMethodMapManage.addMethodMap("ServerMsg", this);
 
     	logger.exit();
 		return true;
@@ -45,7 +42,7 @@ public class TalkPlugin extends IEPlugin{
 	public Object stop() {
 		// TODO Auto-generated method stub
     	logger.entry();
-		EMethodMapManage.removeMethodMap("Talk:sendMessage");
+		EMethodMapManage.removeMethodMap("ServerMsg:sendMessage");
     	logger.exit();
 		return null;
 	}
@@ -56,18 +53,12 @@ public class TalkPlugin extends IEPlugin{
 		IoSession session = (IoSession)msg.getObject();
 		NotepadData data = (NotepadData)msg.getParameter();
 
-		try{
-			String re = data.getDataBlock(1, "123").getDataToString();
-			Long reid = (Long)EMethodMapManage.sendMethodMessage("Login:getUserSessionLong", session, re);
+	    Collection<IoSession> sessions = session.getService().getManagedSessions().values();
+	    // 向所有客户端发送数据
+	    for (IoSession sess : sessions) {
+	    	sess.write(data);
+	    }
 		
-			IoSession resession = session.getService().getManagedSessions().get(reid);
-		
-			resession.write(data);
-		}catch(Exception e){
-			data = new NotepadData("Error");
-			data.putString("2", "123");
-			session.write(data);
-		}
     	logger.exit();
 	}
 	

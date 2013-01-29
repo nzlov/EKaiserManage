@@ -38,6 +38,11 @@ public class ServerHandler extends IoHandlerAdapter{
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         String datetime = sdf.format(new Date());
         
+        if(content.startsWith("Server")){
+            logger.info("服务器过滤： " + datetime + "\t" + content);
+            return;
+        }
+        
         logger.info("服务器处理: " + datetime + "\t" + content);
         
 //        // 拿到所有的客户端Session
@@ -46,7 +51,7 @@ public class ServerHandler extends IoHandlerAdapter{
 //        for (IoSession sess : sessions) {
 //            sess.write(datetime + "\t" + content);
 //        }
-
+        
 		String name = (String) session.getAttribute("name");
         if(name !=null){
         		EMethodMapManage.sendMethodMessage(content, session, emsg);
@@ -73,7 +78,7 @@ public class ServerHandler extends IoHandlerAdapter{
     	logger.info("关闭当前session：{}#{}", session.getId(), session.getRemoteAddress());
         String user = (String) session.getAttribute("name");
         if(user!=null){
-        	EMethodMapManage.sendMethodMessage("Login:closeSession", this, user);
+        	EMethodMapManage.sendMethodMessage("Login:closeSession", session, user);
         }
         CloseFuture closeFuture = session.close(true);
         closeFuture.addListener(new IoFutureListener<IoFuture>(){

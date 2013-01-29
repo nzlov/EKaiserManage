@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 public abstract class IEPlugin {
 	public EPluginManage manage = null;
-	private String version="1.0";
+	public String version="1.0";
 	
 		/**
 		 * 开始执行

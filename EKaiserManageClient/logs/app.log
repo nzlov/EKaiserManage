@@ -2129,3 +2129,244 @@
 2013.01.24 at 11:25:51 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
 2013.01.24 at 11:25:51 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
 2013.01.24 at 11:25:51 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:40:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:40:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@7ccd08
+2013.01.24 at 14:40:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:40:40 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.24 at 14:40:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:40:47 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@c33140
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:40:47 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : User:info	data:齐鹏
+
+2013.01.24 at 14:40:47 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:41:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1ce5af9
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:41:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : User:show	data:test
+2013.01.24 at 14:41:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:46:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1088f7f
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:46:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.24 at 14:46:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:46:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@c33140
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:46:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : User:info	data:test
+2013.01.24 at 14:46:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:46:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@104f60c
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:46:50 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.24 at 14:46:50 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:46:59 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1f39660
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:46:59 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Error	data:3
+2013.01.24 at 14:46:59 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:47:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@12eb2d3
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:47:23 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Talk:sendMessage	data:test
+2013.01.24 at 14:47:23 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:47:44 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1e39ebf
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:47:44 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Talk:sendMessage	data:nzlov
+2013.01.24 at 14:47:44 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 14:48:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@e0a1b9
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 14:48:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Error	data:3
+2013.01.24 at 14:48:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 15:29:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1ab5b91
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:29:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:29:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.24 at 15:29:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:29:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 15:29:16 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@b5b13a
+2013.01.24 at 15:29:16 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:test
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:29:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:test
+2013.01.24 at 15:29:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 15:30:11 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@eeea3f
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:30:11 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Error	data:1
+2013.01.24 at 15:30:11 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@115441f
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:exit	data:test
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:test
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:exit	data:test
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.24 at 15:30:24 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:test
+2013.01.24 at 15:30:24 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.24 at 15:31:13 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 33 exceptionCaught -  entry
+2013.01.24 at 15:31:13 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 33 exceptionCaught -  entry
+2013.01.24 at 15:31:13 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 34 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.24 at 15:31:13 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 34 exceptionCaught - 服务器发生异常： 远程主机强迫关闭了一个现有的连接。
+2013.01.24 at 15:31:13 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 35 exceptionCaught -  exit
+2013.01.24 at 15:31:13 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 35 exceptionCaught -  exit
+2013.01.28 at 16:03:12 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:03:12 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1b39df1
+2013.01.28 at 16:03:12 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:03:15 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:03:15 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:03:15 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:03:38 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1f1a3f4
+2013.01.28 at 16:03:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:05:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:05:31 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1b56b0b
+2013.01.28 at 16:05:31 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:05:32 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:05:32 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:05:32 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:05:41 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:05:41 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@fd02ce
+2013.01.28 at 16:05:41 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:05:58 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@3f7ba3
+2013.01.28 at 16:05:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:06:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@7a2e0
+2013.01.28 at 16:06:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:08:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:08:57 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1ab5b91
+2013.01.28 at 16:08:57 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:08:58 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:08:58 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:08:58 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:09:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@13a82f5
+2013.01.28 at 16:09:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:10:17 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1ffcd45
+2013.01.28 at 16:10:17 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:10:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@867c21
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:10:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:10:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:10:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:10:40 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:10:40 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:10:48 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@13a82f5
+2013.01.28 at 16:10:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:13:03 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@893f08
+2013.01.28 at 16:13:03 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:13:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:13:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:13:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:13:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:13:04 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:13:04 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:13:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@180ce9c
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:13:10 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : User:sign	data:1
+2013.01.28 at 16:13:10 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:15:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:15:38 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@b69801
+2013.01.28 at 16:15:38 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:15:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:15:39 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:15:39 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:15:48 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@14b003e
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:15:48 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : User:sign	data:1
+2013.01.28 at 16:15:48 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:20:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1ddcfef
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:20:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:20:20 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:20:20 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:20:29 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1ed2fe7
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:20:29 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : User:sign	data:1
+2013.01.28 at 16:20:29 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:21:35 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@16811df
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:21:35 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:21:35 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:21:35 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:21:45 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@15a730d
+2013.01.28 at 16:21:45 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:24:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:24:00 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@186b077
+2013.01.28 at 16:24:00 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:24:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:login	data:login OK!
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:24:01 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : Login:enter	data:nzlov
+2013.01.28 at 16:24:01 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit
+2013.01.28 at 16:24:07 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 26 messageSent -  entry
+2013.01.28 at 16:24:07 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 27 messageSent - messageSent 客户端发送消息：ekaiser.nzlov.notepad.data.NotepadData@1644a50
+2013.01.28 at 16:24:07 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 28 messageSent -  exit
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 15 messageReceived -  entry
+2013.01.28 at 16:24:08 CST INFO  ekaiser.nzlov.ekaisermanage.net.ClientHandler 17 messageReceived - client receive a message is : User:sign	data:1
+2013.01.28 at 16:24:08 CST TRACE ekaiser.nzlov.ekaisermanage.net.ClientHandler 22 messageReceived -  exit

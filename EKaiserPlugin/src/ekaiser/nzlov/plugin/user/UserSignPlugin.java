@@ -1,8 +1,8 @@
 package ekaiser.nzlov.plugin.user;
 
 import java.io.UnsupportedEncodingException;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,22 +13,31 @@ import ekaiser.nzlov.methodmap.EMethodMapManage;
 import ekaiser.nzlov.methodmap.EMethodMessage;
 import ekaiser.nzlov.notepad.data.NotepadData;
 import ekaiser.nzlov.plugins.IEPlugin;
+import ekaiser.nzlov.util.GuidCreator;
 /**
- * 2、	查看用户信息：User:Info
- * 				0：用户名
- * 			Re：User:showInfo 姓名 身份证 
- * @author nzlov
+ * 7、	签到：User:sign 时间属性由服务器产生
+ *           0：用户名 1：签到/签退状态 
+ *             签到|签退状态
+ *             上午签到 00
+ *             上午签退 01
+ *             中午签到 10
+ *             中午签退 11
+ *             晚上签到 20
+ *             晚上签退 21
+ * 			Re：0|1
  *
  */
-public class UserInfoPlugin extends IEPlugin{
-	private static Logger logger = LogManager.getLogger("UserInfoPlugin");
+public class UserSignPlugin extends IEPlugin{
+	private static Logger logger = LogManager.getLogger("UserSignPlugin");
 
-	private final static String v = "1.1";
+	private final static String v="1.1";
 	@Override
 	public Object start() {
 		// TODO Auto-generated method stub
     	logger.entry();
-		setVersion(v);
+    	
+    	setVersion(v);
+    	
 		EMethodMapManage.addMethodMap("User", this);
 
     	logger.exit();
@@ -47,13 +56,13 @@ public class UserInfoPlugin extends IEPlugin{
 	public Object stop() {
 		// TODO Auto-generated method stub
     	logger.entry();
-		EMethodMapManage.removeMethodMap("User:info");
+		EMethodMapManage.removeMethodMap("User:sign");
     	logger.exit();
 		return null;
 	}
 	
 	
-	public void info(EMethodMessage msg) throws SQLException, UnsupportedEncodingException{
+	public void sign(EMethodMessage msg) throws UnsupportedEncodingException{
     	logger.entry();
 		IoSession session = (IoSession)msg.getObject();
 		NotepadData data = (NotepadData)msg.getParameter();
@@ -74,27 +83,22 @@ public class UserInfoPlugin extends IEPlugin{
 			logger.exit();
 			return;
 		}
-		String sql = "SELECT * FROM user_info_table ,user_table WHERE user_info_table.user_id = user_table.id and user_table.user_loginname ='"+login+"';";
-		Object[] objs = (Object[])EMethodMapManage.sendMethodMessage("Database:query", this, sql);
-		ResultSet rs = (ResultSet)objs[0];
-		data.clean();
-		while (rs.next()) {
-			data.putString(rs.getString("user_info_name"),"123");
-			data.putString(rs.getInt("user_state")+"","123");
-			data.putString(rs.getString("user_info_id"),"123");
-			data.putString(rs.getInt("user_info_sex")+"","123");
-			data.putString(rs.getInt("user_info_age")+"","123");
-			data.putString(rs.getString("user_info_photo"),"123");
-			data.putString(rs.getString("user_info_mobile"),"123");
-			data.putString(rs.getString("user_info_email"),"123");
-			data.putString(rs.getString("user_info_addr"),"123");
-			data.putString(rs.getString("user_info_photo"),"123");
-		}
+		int state = Integer.parseInt(data.getDataBlock(1, "123").getDataToString());
 		
-		EMethodMapManage.sendMethodMessage("Database:closeJDBC", this, objs);
+		String user_id = (String) session.getAttribute("guid");
+		
+		GuidCreator g = new GuidCreator();
+		String guid = g.createNewGuid(GuidCreator.AfterMD5);
+		
+		String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+		
+		String sql = "insert into sign_table(id,user_id,state,date) values('"+guid+"','"+user_id+"',"+state+",'"+date+"');";
+		int i = (int)EMethodMapManage.sendMethodMessage("Database:update", this, sql);
+		
+		data.clean();
+		data.putString(i+"", "123");
 		
 		session.write(data);
-		
     	logger.exit();
 	}
 	

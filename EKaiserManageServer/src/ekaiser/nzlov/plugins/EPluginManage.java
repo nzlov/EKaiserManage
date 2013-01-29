@@ -149,6 +149,7 @@ public class EPluginManage {
 				IEPlugin plugin = EPluginLoader.loadPlugin(n, jar);
 				plugin.setManage(def);
 				pluginsMap.put(n, plugin);
+				logger.info("Load Plugin :{}   Version:{}", n,plugin.getVersion());
 				plugin.start();
 				logger.exit();
 				return true;

@@ -13,6 +13,10 @@
 		<Jar>ekaiser.nzlov.plugin.limit/limit.jar</Jar>
 	</Plugin>
 	<Plugin>
+		<Name>ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.servermsg/servermsg.jar</Jar>
+	</Plugin>
+	<Plugin>
 		<Name>ekaiser.nzlov.plugin.database.DatabasePlugin</Name>
 		<Jar>ekaiser.nzlov.plugin.database/database.jar</Jar>
 	</Plugin>
@@ -31,5 +35,17 @@
 	<Plugin>
 		<Name>ekaiser.nzlov.plugin.user.UserAddPlugin</Name>
 		<Jar>ekaiser.nzlov.plugin.user/useradd.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserEnablePlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.user/userenable.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserPwdPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.user/userpwd.jar</Jar>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserSignPlugin</Name>
+		<Jar>ekaiser.nzlov.plugin.user/usersign.jar</Jar>
 	</Plugin>
 </Plugins>
