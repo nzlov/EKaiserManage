@@ -55,11 +55,13 @@ public class ClientMain {
         connector.setHandler(new ClientHandler());
  
         // 连接服务器，知道端口、地址
-        future = connector.connect(new InetSocketAddress(3421));
+        future = connector.connect(new InetSocketAddress("172.19.42.48",3421));
         // 等待连接创建完成
         future.awaitUninterruptibly();
         // 获取当前session
         session = future.getSession();
+        
+       
         return true;
     }
  

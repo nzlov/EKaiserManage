@@ -1,0 +1,55 @@
+10
+
+dir
+22
+https://172.19.42.48/svn/EKaiserManage/trunk/EKaiserPlugin/src/ekaiser/nzlov/plugin
+https://172.19.42.48/svn/EKaiserManage
+
+
+
+2013-03-21T03:28:33.705085Z
+22
+nzlov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6df35acf-2cc0-d24b-9ed8-f3d48cbe088e
+
+image
+dir
+
+database
+dir
+
+config
+dir
+
+login
+dir
+
+illegal
+dir
+
+talk
+dir
+
+servermsg
+dir
+
+limit
+dir
+
+user
+dir
+

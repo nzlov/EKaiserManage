@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plugins>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.talk.TalkPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.login.LoginPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.limit.LimitPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.servermsg.ServerMsgPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.database.DatabasePlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserShowPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserInfoPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserModifyPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserAddPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserEnablePlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserPwdPlugin</Name>
+	</Plugin>
+	<Plugin>
+		<Name>ekaiser.nzlov.plugin.user.UserSignPlugin</Name>
+	</Plugin>
+</Plugins>

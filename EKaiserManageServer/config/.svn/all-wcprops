@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/EKaiserManage/!svn/ver/20/trunk/EKaiserManageServer/config
+END
+plugins.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/EKaiserManage/!svn/ver/20/trunk/EKaiserManageServer/config/plugins.cfg
+END
+database.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/EKaiserManage/!svn/ver/20/trunk/EKaiserManageServer/config/database.xml
+END
+limit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/EKaiserManage/!svn/ver/20/trunk/EKaiserManageServer/config/limit.xml
+END
